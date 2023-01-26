@@ -23,7 +23,7 @@
    * Fiji > Image > Show Info… (Ctrl + I)
    * Search for something like “Voxel size” or record this metadata when collecting your own images
    * The actual units do not matter, rather their relative proportion. The numbers are unitless and therefore the decimal place does not matter.
-   * For this example, the relative pixel spacing is 0.065 in x and y and 0.29 pixels in z.
+   * For this example, the relative pixel spacing is 0.26 in x and y and 0.29 pixels in z.
 1. Create "rule criteria" to identify an image by its color/channel. For example, using the Metadata you just extracted - `Metadata -> Does ->
 Have ChannelNumber matching -> 0` would match the first image.
 1. Give the images "variable names" that describe the contents in the image. For example, use the name *dna* or *dapi* to describe an image stained with DAPI.
